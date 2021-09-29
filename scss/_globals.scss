@@ -1,14 +1,14 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
-  // overflow: hidden;
+  overflow: hidden;
 }
 
 *,
 *::after,
 *::before {
   box-sizing: inherit;
-  // overflow: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -20,19 +20,4 @@ body {
 }
 
 // Flexbox styles
-.flex {
-  display: flex;
-
-  &-jc-sb {
-    justify-content: space-between;
-  }
-  &-jc-c {
-    justify-content: center;
-  }
-  &-ai-c {
-    align-items: center;
-  }
-  // se folosesc de genul flex si flex-jc-sb
-}
-
 // Buttons
