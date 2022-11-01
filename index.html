@@ -15,6 +15,7 @@
     <!-- Nav bar -->
     <header class="sticky top-0 z-50 flex items-center justify-center w-full px-5 h-15 ">
         <nav class="flex items-center justify-between w-full h-20 max-w-4xl">
+
             <ul class="h-full space-x-1 md:items-center hidden md:flex relative">
                 <li class="z-50"><a href="/" class="py-2 px-3 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md">Home</a></li>
                 <li class="z-50"><a href="/" class="py-2 px-3 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md">About</a></li>
@@ -52,7 +53,21 @@
                 <span class="hamburger-middle"></span>
                 <span class="hamburger-bottom"></span>
             </button>
+
+            <!-- Mobile menu -->
+            
         </nav>
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center hidden bg-white self-end py-2 mt-10 font-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md rounded-md ">
+            <ul class="text-center">
+                <li class="py-2 px-3 my-2 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md"><a href="/">Home</a></li>
+                <li class="py-2 px-3 my-2 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md"><a href="/">About</a></li>
+                <li class="py-2 px-3 my-2 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md"><a href="/">Projects</a></li>
+                <li class="py-2 px-3 my-2 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md"><a href="https://ilieadrian.com/">Blog</a></li>
+                <li class="py-2 px-3 my-2 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md"><a href="/">Contact</a></li>
+            </ul>
+            </div>
+        </div>
     </header>
 
 
