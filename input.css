@@ -50,3 +50,29 @@
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+
+/* About section hand wave animation */
+
+.animate-wave {
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: animate-wave;
+}
+
+.origin-bottom {
+    transform-origin: bottom;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+@keyframes animate-wave {
+    0% {transform: rotate(-5deg)}
+    50% {transform: rotate(5deg);}
+    100%{transform: rotate(-5deg)}
+}
