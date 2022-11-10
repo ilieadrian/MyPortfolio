@@ -3,7 +3,6 @@ module.exports = {
   content: ['./*.html'],
   theme: {
     screen: {
-      xs: '400px', 
       sm: '480px',
       md: '768px',
       lg: '976px',
@@ -17,6 +16,9 @@ module.exports = {
       },
       fontFamily: {
         body:['Rubik', 'sans-serif']
+      },
+      screens: {
+        'xs': '400px'
       }
     },
   },
