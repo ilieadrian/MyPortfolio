@@ -18,7 +18,7 @@ module.exports = {
         body:['Rubik', 'sans-serif']
       },
       screens: {
-        'xs': '400px'
+        xs: '400px'
       }
     },
   },
