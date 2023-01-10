@@ -259,15 +259,30 @@
                         <input name="name" id="react-aria-1" aria-labelledby="react-aria-2" class="bg-white
                         w-full p-1.5 px-2 rounded-md border
                         disabled:cursor-not-allowed disabled:opacity-80
-                        transition-colors border-secondary/50 focus:border-secondary">
+                        transition-colors border-textSecondary/50 focus:border-secondary" aria-describedby="react-aria-4">
+                        <span class="mt-1 font-medium text-red-400" id="react-aria-4">Field must be at least 2 characters</span>
                     </div>
 
-                    <div id="name" class="flex mb-3 flex-col">
-                        <label id="react-aria-2" for="react-aria-1" class="mb-1">Red version</label>
-                        <input name="name" id="react-aria-1" aria-labelledby="react-aria-2" class="bg-white
+                    <div id="email" class="flex mb-3 flex-col">
+                        <label id="react-aria-6" for="react-aria-5" class="mb-1">Email</label>
+                        <input name="email" id="react-aria-5" aria-labelledby="react-aria-6" class="bg-white
                         w-full p-1.5 px-2 rounded-md border
                         disabled:cursor-not-allowed disabled:opacity-80
-                        transition-colors border-red-500 focus:border-red-700">
+                        transition-colors border-red-500 focus:border-red-700" aria-describedby="react-aria-8">
+                        <span class="mt-1 font-medium text-red-400" id="react-aria-8">Please enter a valid email</span>
+                    </div>
+
+                    <div class="flex mb-3 flex-col" id="message">
+                        <label id="react-aria-10" for="react-aria-9" class="mb-1">Message</label>
+                        <textarea name="message" id="react-aria-9" aria-labeledby="react-aria-10" class="bg-white
+                        w-full p-1.5 px-2 rounded-md border
+                        disabled:cursor-not-allowed disabled:opacity-80
+                        transition-colors border-textSecondary/50 focus:border-secondary" aria-describedby="react-aria-12"></textarea>
+                        <span class="mt-1 font-medium text-red-400" id="react-aria-12">Message must be at least 5 characters</span>
+                    </div>
+
+                    <div class="flex justify-end mt-6">
+                        <button type="submit" class="bg-textSecondary text-white hover:brightness-125 focus:brightness-125 p-2 px-3.5 duration-200 transition-all rounded-md disabled:cursor-not-allowed disabled:opacity-80">Submit</button>
                     </div>
                 </form>
             </section>
