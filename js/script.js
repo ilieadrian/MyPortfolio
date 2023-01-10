@@ -8,3 +8,6 @@ btn.addEventListener('click', () => {
     nav.classList.toggle('flex')
     nav.classList.toggle('hidden')
 })
+
+// Adding current year to copyright claim in footer
+document.getElementById("year").innerHTML = new Date().getFullYear();
