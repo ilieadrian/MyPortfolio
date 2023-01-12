@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css"> 
+    
+    <title>Portfolio - Ilie Adrian</title>
+</head>
+
+<body class="bg-bgPrimary font-body min-h-screen relative" >
+
+    <!-- Nav bar -->
+    <header class="sticky top-0 z-50 flex items-center justify-center w-full px-5 h-15 ">
+        <nav class="flex items-center justify-between w-full h-12 sm:h-20 max-w-4xl bg-bgPrimary">
+
+            <ul class="h-full space-x-1 md:items-center hidden md:flex relative">
+                <li class="z-50"><a href="/" class="py-2 px-3 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md">Home</a></li>
+                <li class="z-50"><a href="/about.html" class="py-2 px-3 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md">About</a></li>
+                <li class="z-50"><a href="/" class="py-2 px-3 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md">Projects</a></li>
+                <li class="z-50"><a href="https://ilieadrian.com/" class="py-2 px-3 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md">Blog</a></li>
+                <li class="z-50"><a href="/" class="py-2 px-3 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md">Contact</a></li>
+            </ul>
+
+            <ul class="flex items-center h-full space-x-1">
+                <li>
+                    <a class="group grid place-items-center w-10 h-10 relative overflow-hidden rounded-md" href="https://www.linkedin.com/in/ilie-adrian/">
+                        <div class="absolute inset-0 transition-opacity opacity-0 group-hover:opacity-100 bg-gradient-to-tr from-[#1150d4] to-[#a245fc] z-0 duration-200"></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="21" height="21" fill="currentColor" aria-labelledby="react-aria-1" class="group-hover:text-white pointer-events-none z-10 fill-current text-secondary"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path></svg>
+                    </a>
+                </li> 
+                <li>
+                    <a class="group grid place-items-center w-10 h-10 relative overflow-hidden rounded-md" href="https://github.com/ilieadrian">
+                        <div class="absolute inset-0 transition-opacity opacity-0 group-hover:opacity-100 bg-gradient-to-tr from-[#1150d4] to-[#a245fc] z-0 duration-200"></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="21" height="21" fill="currentColor" aria-labelledby="react-aria-2" class="group-hover:text-white pointer-events-none z-10 fill-current text-secondary"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+
+                    </a>
+                </li>
+                    
+                <li>
+                    <a class="group grid place-items-center w-10 h-10 relative overflow-hidden rounded-md" href="https://twitter.com/IlieAdrianDev">
+                        <div class="absolute inset-0 transition-opacity opacity-0 group-hover:opacity-100 bg-gradient-to-tr from-[#1150d4] to-[#a245fc] z-0 duration-200"></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="21" height="21" fill="currentColor" aria-labelledby="react-aria-3" class="group-hover:text-white pointer-events-none z-10 fill-current text-secondary"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path></svg>
+                    </a>
+                </li>            
+            </ul>
+
+            <!-- Hamburger Icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+
+            <!-- Mobile menu -->
+            
+        </nav>
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center hidden bg-white self-end py-2 mt-10 font-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md rounded-md ">
+                <ul class="text-center">
+                    <li class="py-2 px-3 my-2 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md"><a href="/">Home</a></li>
+                    <li class="py-2 px-3 my-2 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md"><a href="/about.html">About</a></li>
+                    <li class="py-2 px-3 my-2 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md"><a href="/">Projects</a></li>
+                    <li class="py-2 px-3 my-2 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md"><a href="https://ilieadrian.com/">Blog</a></li>
+                    <li class="py-2 px-3 my-2 hover:bg-bgSecondary hover:text-white duration-200 transition rounded-md hover:shadow-md"><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="flex justify-center w-full px-5 pt-5" style="min-height: calc((100vh - 5rem) - 12rem);">
+        <main class="w-full max-w-4xl">
+            <div id="about">
+                <h1 class="section-title">About me</h1>
+                <div class="max-w-3xl mt-5 text-textSecondary">
+                    <p>
+                        Am o ampla experienta in administrarea magazinelor online, gestionarea clientilor si administrarea fluxuri de comenzi.
+                    </br>
+                        Am proiectat aplicatia de facturare online Facturone.ro, coordonand procesul de implementare impreuna cu echipa de programatori.
+                    </br>
+                        In ultimii ani am dat curs unui hobby mai vechi, programarea web, in acest sens mi-am insusit in mod autodidact cunostinte medii de HTML si CSS si Javascript de baza. 
+
+                    </p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="flex items-center justify-center w-full sm:h-40 px-5 pb-10 sm:pb-5 pt-8 mt-8 border-t border-secondary">
+        <div class="flex flex-col sm:flex-row text-center items-center justify-between w-full sm:h-40 max-w-4xl">
+            <p class="text-center sm:text-left mb-5">Created by <a class="underline" target="_blank" rel="noreferrer noopener" href="https://ilieadrian.com/">Ilie Adrian</a>
+            </br>
+            Build with <a class="underline" target="_blank" rel="noreferrer noopener" href="https://tailwindcss.com/">tailwindcss</a>
+            </p>
+    
+            <div class="flex flex-col">
+                <div class="flex flex-col md:flex-row md:gap-2 mb-1">
+                    <a class="underline" target="_blank" rel="noreferrer noopener" href="https://twitter.com/IlieAdrianDev">Twitter</a>
+                    <a class="underline" target="_blank" rel="noreferrer noopener" href="https://github.com/ilieadrian">Github</a>
+                    <a class="underline" target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/ilie-adrian/">LinkedIn</a>
+                </div>
+                <p class="text-textSecondary text-xs">© Ilie Adrian 2021 - <span id="year"></span></div>
+            </div>
+            
+        </div>
+        
+    </footer>
+
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
