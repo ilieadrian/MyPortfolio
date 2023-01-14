@@ -13,6 +13,7 @@ module.exports = {
         bgPrimary: 'rgb(249, 251, 252)', //bgPrimary
         bgSecondary: 'rgb(55, 72, 72)', //bgSecondary
         textSecondary: 'rgb(44, 58, 58)', //textSecondary
+        borderSecondary: 'rgb(255,160,122)',
       },
       fontFamily: {
         body:['Rubik', 'sans-serif']

@@ -611,6 +611,11 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -635,32 +640,16 @@ video {
   margin-top: 2.5rem;
 }
 
-.mb-3{
-  margin-bottom: 0.75rem;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
-}
-
-.mt-6{
-  margin-top: 1.5rem;
-}
-
-.mb-1{
-  margin-bottom: 0.25rem;
-}
-
-.mt-14{
-  margin-top: 3.5rem;
-}
-
 .mt-5{
   margin-top: 1.25rem;
 }
 
 .mt-3{
   margin-top: 0.75rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .mt-1{
@@ -673,6 +662,26 @@ video {
 
 .mb-5{
   margin-bottom: 1.25rem;
+}
+
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
+.mb-3{
+  margin-bottom: 0.75rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
 }
 
 .block{
@@ -809,6 +818,10 @@ video {
   border-width: 1px;
 }
 
+.border-b{
+  border-bottom-width: 1px;
+}
+
 .border-t{
   border-top-width: 1px;
 }
@@ -895,6 +908,11 @@ video {
   padding-right: 0.75rem;
 }
 
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -914,8 +932,8 @@ video {
   padding-top: 1.25rem;
 }
 
-.pb-5{
-  padding-bottom: 1.25rem;
+.pb-8{
+  padding-bottom: 2rem;
 }
 
 .pb-10{
@@ -924,6 +942,10 @@ video {
 
 .pt-8{
   padding-top: 2rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
 }
 
 .text-center{
@@ -937,6 +959,21 @@ video {
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-5xl{
@@ -954,21 +991,16 @@ video {
   line-height: 2.25rem;
 }
 
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .font-bold{
   font-weight: 700;
 }
 
-.font-medium{
-  font-weight: 500;
-}
-
 .font-semibold{
   font-weight: 600;
+}
+
+.font-medium{
+  font-weight: 500;
 }
 
 .capitalize{
@@ -1002,11 +1034,6 @@ video {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.outline-none{
-  outline: 2px solid transparent;
-  outline-offset: 2px;
 }
 
 .drop-shadow-md{
@@ -1173,6 +1200,14 @@ video {
 
 p {
   font-size: 1.125rem;
+}
+
+.first\:pt-0:first-child{
+  padding-top: 0px;
+}
+
+.last-of-type\:border-b:last-of-type{
+  border-bottom-width: 1px;
 }
 
 .hover\:border-textSecondary:hover{
