@@ -262,7 +262,7 @@
                         w-full p-1.5 px-2 rounded-md border
                         disabled:cursor-not-allowed disabled:opacity-80
                         transition-colors border-textSecondary/50 focus:border-secondary " aria-describedby="react-aria-4">
-                        <span class="mt-1 font-medium text-red-400" id="react-aria-4">Field must be at least 2 characters</span>
+                        <span class="hidden mt-1 font-medium text-red-400" id="react-aria-4">Field must be at least 2 characters</span>
                     </div>
 
                     <div id="email" class="flex mb-3 flex-col">
@@ -270,8 +270,9 @@
                         <input name="email" id="react-aria-5" aria-labelledby="react-aria-6" class="bg-white
                         w-full p-1.5 px-2 rounded-md border
                         disabled:cursor-not-allowed disabled:opacity-80
-                        transition-colors border-red-500 focus:border-red-700" aria-describedby="react-aria-8">
-                        <span class="mt-1 font-medium text-red-400" id="react-aria-8">Please enter a valid email</span>
+                        transition-colors border-textSecondary/50 focus:border-secondary" aria-describedby="react-aria-8">
+                        <!-- border-red-500 instead of border-textSecondary/50 for error focus:border-red-700 instead of focus:border-secondary-->
+                        <span class="hidden mt-1 font-medium text-red-400" id="react-aria-8">Please enter a valid email</span>
                     </div>
 
                     <div class="flex mb-3 flex-col" id="message">
@@ -280,7 +281,7 @@
                         w-full p-1.5 px-2 rounded-md border
                         disabled:cursor-not-allowed disabled:opacity-80
                         transition-colors border-textSecondary/50 focus:border-secondary" aria-describedby="react-aria-12"></textarea>
-                        <span class="mt-1 font-medium text-red-400" id="react-aria-12">Message must be at least 5 characters</span>
+                        <span class="hidden mt-1 font-medium text-red-400" id="react-aria-12">Message must be at least 5 characters</span>
                     </div>
 
                     <div class="flex justify-end mt-6">
