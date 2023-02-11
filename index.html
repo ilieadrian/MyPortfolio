@@ -200,30 +200,30 @@
                 <form class="mt-3" id="form">
                     <div class="flex mb-3 flex-col">
                         <label id="react-aria-2" for="react-aria-1" class="mb-1">Name</label>
-                        <input name="name" id="react-aria-1" aria-labelledby="react-aria-2" class="bg-white
+                        <input name="name" id="name" aria-labelledby="react-aria-2" class="bg-white
                         w-full p-1.5 px-2 rounded-md border
                         disabled:cursor-not-allowed disabled:opacity-80
                         transition-colors border-textSecondary/50 focus:border-secondary " aria-describedby="react-aria-4">
-                        <span class="hidden mt-1 font-medium text-red-400" id="react-aria-4">Field must be at least 2 characters</span>
+                        <span class="target hidden mt-1 font-medium text-red-400" id="react-aria-4">Field must be at least 2 characters</span>
                     </div>
 
-                    <div class="flex mb-3 flex-col">
+                    <div class="flex mb-3 flex-col form-control">
                         <label id="react-aria-6" for="react-aria-5" class="mb-1">Email</label>
-                        <input name="email" id="react-aria-5" aria-labelledby="react-aria-6" class="bg-white
+                        <input name="email" id="email" aria-labelledby="react-aria-6" class="bg-white
                         w-full p-1.5 px-2 rounded-md border
                         disabled:cursor-not-allowed disabled:opacity-80
                         transition-colors border-textSecondary/50 focus:border-secondary" aria-describedby="react-aria-8">
                         <!-- border-red-500 instead of border-textSecondary/50 for error focus:border-red-700 instead of focus:border-secondary-->
-                        <span class="hidden mt-1 font-medium text-red-400" id="react-aria-8">Please enter a valid email</span>
+                        <span class="target hidden mt-1 font-medium text-red-400" id="react-aria-8">Please enter a valid email</span>
                     </div>
 
                     <div class="flex mb-3 flex-col">
                         <label id="react-aria-10" for="react-aria-9" class="mb-1">Message</label>
-                        <textarea name="message" id="react-aria-9" aria-labeledby="react-aria-10" class="bg-white
+                        <textarea name="message" id="message" aria-labeledby="react-aria-10" class="bg-white
                         w-full p-1.5 px-2 rounded-md border
                         disabled:cursor-not-allowed disabled:opacity-80
                         transition-colors border-textSecondary/50 focus:border-secondary" aria-describedby="react-aria-12"></textarea>
-                        <span class="hidden mt-1 font-medium text-red-400" id="react-aria-12">Message must be at least 5 characters</span>
+                        <span class="target hidden mt-1 font-medium text-red-400" id="react-aria-12">Message must be at least 5 characters</span>
                     </div>
 
                     <div class="flex justify-end mt-6">
