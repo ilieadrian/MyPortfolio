@@ -15,13 +15,16 @@ function checkRequired (inputArr) {
 }
 
 function error(input) {
-    const target = document.getElementsByClassName('target');
-    target.className = 'target mt-1 font-medium text-red-400';
+    const formControl = input.parentElement;
+    const inputEl = formControl.querySelector('.form-control');
+    inputEl.classList.replace("border-textSecondary/50", "border-red-500","focus:border-secondary","focus:border-red-700")
 }
 
 function succes(input) {
-    const target = document.getElementsByClassName('target');
-    target.className = 'target hidden mt-1 font-medium text-red-400';
+    const formControl = input.parentElement;
+    const inputEl = formControl.querySelector('.form-control');
+    inputEl.classList.replace("border-red-500", "border-textSecondary/50", "focus:border-red-700", "focus:border-secondary")
+
 }
 
 function checkEmail(input) {
@@ -36,6 +39,7 @@ function checkEmail(input) {
 
 form.addEventListener("submit", e => {
     e.preventDefault()
+    console.log(contactName.value, email.value, message.value)
     checkRequired([contactName, email, message])
     checkEmail(email)
 })
