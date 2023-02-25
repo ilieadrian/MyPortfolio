@@ -11,3 +11,13 @@ btn.addEventListener('click', () => {
 
 // Adding current year to copyright claim in footer
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+
+//Display curent age in about page
+
+let currentAge = document.getElementById('currentAge')
+
+window.addEventListener('load', (e) => {
+    const yearOfBirth = '1986'
+    currentAge.textContent = new Date().getFullYear() - yearOfBirth
+});
