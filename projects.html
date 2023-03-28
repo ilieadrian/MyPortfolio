@@ -73,137 +73,145 @@
 
     <div class="flex justify-center w-full px-5 pt-5" style="min-height: calc((100vh - 5rem) - 12rem);">
         <main class="w-full max-w-4xl">
-            <h1 class="text-3xl font-bold capitalize md:text-4xl">Projects</h1>
-            <p class="mt-2 font-normal text-textSecondary">A list of my projects that I'm proud of. All my projects are fully responsive and they are <a class="underline" href="https://github.com/ilieadrian?tab=repositories">available on GitHub</a>.</p>
-            <ul class="grid grid-cols-1 gap-3 mt-5 md:grid-cols-2">
+            <section id="main-projects">
+                <h1 class="text-3xl font-bold capitalize md:text-4xl">Projects</h1>
+                <p class="mt-2 font-normal text-textSecondary">A list of my projects that I'm proud of. All my projects are fully responsive and they are <a class="underline" href="https://github.com/ilieadrian?tab=repositories">available on GitHub</a>.</p>
+                <ul class="grid grid-cols-1 gap-3 mt-5 md:grid-cols-2">
+                    <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
+                        <h3 class="text-2xl font-semibold">Portfolio website</h3>
+                        <img src="./images/portfolio-thumbnails/portolio-screenshot.jpg" alt="Website screenshot" class="hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
+                        <p class="my-3 text-textSecondary">Portfolio build with HTML, Tailwind CSS and Javascript for form validation.</p>
+                        <ul class="flex gap-2 mt-2">
+                            <li>
+                                <a href="https://github.com/ilieadrian/MyPortfolio" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
+                            </li>
+                            <li>
+                                <a href="https://ilieadrian.com/portfolio/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
 
-                <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
-                    <h3 class="text-2xl font-semibold">Portfolio website</h3>
-                    <img src="./images/portfolio-thumbnails/portolio-screenshot.jpg" alt="Website screenshot" class="hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
-                    <p class="my-3 text-textSecondary">Portfolio build with HTML, Tailwind CSS and Javascript for form validation.</p>
-                    <ul class="flex gap-2 mt-2">
-                        <li>
-                            <a href="https://github.com/ilieadrian/MyPortfolio" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
-                        </li>
-                        <li>
-                            <a href="https://ilieadrian.com/portfolio/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
-                        </li>
-                    </ul>
-                </li>
+            <div class="py-5 first:pt-0 border-b border-secondary last-of-type:border-b"></div>
 
-                <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
-                    <h3 class="text-2xl font-semibold">Article preview component</h3>
-                    <img src="./images/portfolio-thumbnails/articlepreviewia-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
-                    <p class="my-3 text-textSecondary">Responsive component made with HTML, CSS / SASS.</p>
-                    <ul class="flex gap-2 mt-2">
-                        <li>
-                            <a href="https://github.com/ilieadrian/articlePreviewComponent" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
-                        </li>
-                        <li>
-                            <a href="https://articlepreviewia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
-                        </li>
-                    </ul>
-                </li>
+            <section id="secondary-projects" class="mt-10">
+                <p class="mt-2 font-normal text-textSecondary">In addition to the projects above, I have a whole suite of small projects like landing pages, modules, and cards. Click here if you want to see them.</p>
+                <ul class="grid grid-cols-1 gap-3 mt-5 md:grid-cols-2 hidden">
+                    <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
+                        <h3 class="text-2xl font-semibold">Article preview component</h3>
+                        <img src="./images/portfolio-thumbnails/articlepreviewia-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
+                        <p class="my-3 text-textSecondary">Responsive component made with HTML, CSS / SASS.</p>
+                        <ul class="flex gap-2 mt-2">
+                            <li>
+                                <a href="https://github.com/ilieadrian/articlePreviewComponent" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
+                            </li>
+                            <li>
+                                <a href="https://articlepreviewia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
+                            </li>
+                        </ul>
+                    </li>
 
-                <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
-                    <h3 class="text-2xl font-semibold">Fylo landing page with two column</h3>
-                    <img src="./images/portfolio-thumbnails/landingtwocollumnia-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
-                    <p class="my-3 text-textSecondary">Landing page, fully responsonsive. Basic HTML form validation. Made with HTML, CSS / SASS</p>
-                    <ul class="flex gap-2 mt-2">
-                        <li>
-                            <a href="https://github.com/ilieadrian/landingPageWithTwoColumnLayout" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
-                        </li>
-                        <li>
-                            <a href="https://landingtwocollumnia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
-                        </li>
-                    </ul>
-                </li>
+                    <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
+                        <h3 class="text-2xl font-semibold">Fylo landing page with two column</h3>
+                        <img src="./images/portfolio-thumbnails/landingtwocollumnia-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
+                        <p class="my-3 text-textSecondary">Landing page, fully responsonsive. Basic HTML form validation. Made with HTML, CSS / SASS</p>
+                        <ul class="flex gap-2 mt-2">
+                            <li>
+                                <a href="https://github.com/ilieadrian/landingPageWithTwoColumnLayout" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
+                            </li>
+                            <li>
+                                <a href="https://landingtwocollumnia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
+                            </li>
+                        </ul>
+                    </li>
 
-                <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
-                    <h3 class="text-2xl font-semibold">Ping coming soon page</h3>
-                    <img src="./images/portfolio-thumbnails/pingcomingsoonia-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
-                    <p class="my-3 text-textSecondary">Landing page. Made with HTML, CSS and Javascript for form validation</p>
-                    <ul class="flex gap-2 mt-2">
-                        <li>
-                            <a href="https://github.com/ilieadrian/pingComingSoonPage" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
-                        </li>
-                        <li>
-                            <a href="https://pingcomingsoonia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
-                        </li>
-                    </ul>
-                </li>
+                    <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
+                        <h3 class="text-2xl font-semibold">Ping coming soon page</h3>
+                        <img src="./images/portfolio-thumbnails/pingcomingsoonia-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
+                        <p class="my-3 text-textSecondary">Landing page. Made with HTML, CSS and Javascript for form validation</p>
+                        <ul class="flex gap-2 mt-2">
+                            <li>
+                                <a href="https://github.com/ilieadrian/pingComingSoonPage" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
+                            </li>
+                            <li>
+                                <a href="https://pingcomingsoonia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
+                            </li>
+                        </ul>
+                    </li>
 
-                <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
-                    <h3 class="text-2xl font-semibold">Single price grid component</h3>
-                    <img src="./images/portfolio-thumbnails/singlepricegridia-screenshot.jpg" alt="Website screenshot" class="hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
-                    <p class="my-3 text-textSecondary">Price component. Made with HTML, CSS / SASS</p>
-                    <ul class="flex gap-2 mt-2">
-                        <li>
-                            <a href="https://github.com/ilieadrian/Single-price-grid-component" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
-                        </li>
-                        <li>
-                            <a href="https://singlepricegridia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
-                        </li>
-                    </ul>
-                </li>
+                    <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
+                        <h3 class="text-2xl font-semibold">Single price grid component</h3>
+                        <img src="./images/portfolio-thumbnails/singlepricegridia-screenshot.jpg" alt="Website screenshot" class="hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
+                        <p class="my-3 text-textSecondary">Price component. Made with HTML, CSS / SASS</p>
+                        <ul class="flex gap-2 mt-2">
+                            <li>
+                                <a href="https://github.com/ilieadrian/Single-price-grid-component" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
+                            </li>
+                            <li>
+                                <a href="https://singlepricegridia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
+                            </li>
+                        </ul>
+                    </li>
 
-                <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
-                    <h3 class="text-2xl font-semibold">Four card feature section</h3>
-                    <img src="./images/portfolio-thumbnails/fourcardfeatureia-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
-                    <p class="my-3 text-textSecondary">Landing page section. Made with HTML and CSS.</p>
-                    <ul class="flex gap-2 mt-2">
-                        <li>
-                            <a href="https://github.com/ilieadrian/FourCardFeatureSection" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
-                        </li>
-                        <li>
-                            <a href="https://fourcardfeatureia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
-                        </li>
-                    </ul>
-                </li>
+                    <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
+                        <h3 class="text-2xl font-semibold">Four card feature section</h3>
+                        <img src="./images/portfolio-thumbnails/fourcardfeatureia-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
+                        <p class="my-3 text-textSecondary">Landing page section. Made with HTML and CSS.</p>
+                        <ul class="flex gap-2 mt-2">
+                            <li>
+                                <a href="https://github.com/ilieadrian/FourCardFeatureSection" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
+                            </li>
+                            <li>
+                                <a href="https://fourcardfeatureia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
+                            </li>
+                        </ul>
+                    </li>
 
-                <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
-                    <h3 class="text-2xl font-semibold">Base Apparel coming soon page</h3>
-                    <img src="./images/portfolio-thumbnails/baseapparelia2-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
-                    <p class="my-3 text-textSecondary">Landing page with form falidation. Made with HTML, CSS and Javascript</p>
-                    <ul class="flex gap-2 mt-2">
-                        <li>
-                            <a href="https://github.com/ilieadrian/Base-Apparel---Comming-soon" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
-                        </li>
-                        <li>
-                            <a href="https://baseapparelia2.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
-                        </li>
-                    </ul>
-                </li>
+                    <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
+                        <h3 class="text-2xl font-semibold">Base Apparel coming soon page</h3>
+                        <img src="./images/portfolio-thumbnails/baseapparelia2-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
+                        <p class="my-3 text-textSecondary">Landing page with form validation. Made with HTML, CSS and Javascript</p>
+                        <ul class="flex gap-2 mt-2">
+                            <li>
+                                <a href="https://github.com/ilieadrian/Base-Apparel---Comming-soon" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
+                            </li>
+                            <li>
+                                <a href="https://baseapparelia2.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
+                            </li>
+                        </ul>
+                    </li>
 
-                <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
-                    <h3 class="text-2xl font-semibold">Intro component with signup form</h3>
-                    <img src="./images/portfolio-thumbnails/introcomponentia-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
-                    <p class="my-3 text-textSecondary">Landing page with form falidation. Made with HTML, CSS and Javascript</p>
-                    <ul class="flex gap-2 mt-2">
-                        <li>
-                            <a href="https://github.com/ilieadrian/introComponentWithSignupForm" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
-                        </li>
-                        <li>
-                            <a href="https://introcomponentia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
-                        </li>
-                    </ul>
-                </li>
+                    <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
+                        <h3 class="text-2xl font-semibold">Intro component with signup form</h3>
+                        <img src="./images/portfolio-thumbnails/introcomponentia-screenshot.jpg" alt="Website screenshot" class= "hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
+                        <p class="my-3 text-textSecondary">Landing page with form validation Made with HTML, CSS and Javascript</p>
+                        <ul class="flex gap-2 mt-2">
+                            <li>
+                                <a href="https://github.com/ilieadrian/introComponentWithSignupForm" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
+                            </li>
+                            <li>
+                                <a href="https://introcomponentia.netlify.app/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
+                            </li>
+                        </ul>
+                    </li>
 
-                <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
-                    <h3 class="text-2xl font-semibold">Huddle landing page</h3>
-                    <img src="./images/portfolio-thumbnails/huddleia2-screenshot.jpg" alt="Website screenshot" class="hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
-                    <p class="my-3 text-textSecondary">Landing page. Made with HTML, CSS / SAAS.</p>
-                    <ul class="flex gap-2 mt-2">
-                        <li>
-                            <a href="https://github.com/ilieadrian/03-08.09-HuddleHTMLChalenge" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
-                        </li>
-                        <li>
-                            <a href="https://huddleia2.netlify.app" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
-                        </li>
-                    </ul>
-                </li>
+                    <li class="flex flex-col justify-between p-4 py-6 rounded-md shadow-sm bg-white border border-textSecondary/50 cursor-default">
+                        <h3 class="text-2xl font-semibold">Huddle landing page</h3>
+                        <img src="./images/portfolio-thumbnails/huddleia2-screenshot.jpg" alt="Website screenshot" class="hidden md:block w-full h-[16rem] my-2 object-cover object-top rounded-md shadow-sm">
+                        <p class="my-3 text-textSecondary">Landing page. Made with HTML, CSS / SAAS.</p>
+                        <ul class="flex gap-2 mt-2">
+                            <li>
+                                <a href="https://github.com/ilieadrian/03-08.09-HuddleHTMLChalenge" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">View code</a>
+                            </li>
+                            <li>
+                                <a href="https://huddleia2.netlify.app" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 p-2 px-3.5 rounded-md transition border border-bgSecondary/50 text-textSecondary hover:border-textSecondary">Live version</a>
+                            </li>
+                        </ul>
+                    </li>
 
-            </ul>
+                </ul>
+            </section>
         </main>
     </div>
 
