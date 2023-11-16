@@ -732,6 +732,10 @@ video {
   min-height: 40em;
 }
 
+.min-h-\[8rem\]{
+  min-height: 8rem;
+}
+
 .w-full{
   width: 100%;
 }
